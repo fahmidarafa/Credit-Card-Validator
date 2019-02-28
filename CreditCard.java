@@ -36,9 +36,6 @@ public class CreditCard {
 		}
 		if(sum % 10 == 0) {
 			System.out.println("Card number is valid");
-			String [] database = new String[200];
-			database[0]= number;
-
 		}
 		else {
 			System.out.println("Card number is invalid");
